@@ -15,6 +15,20 @@ li {
     list-style: none;
 }
 
+h2{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#about, #discord, #contact{
+    padding: 48px 0;
+}
+
 /* NAV */
 
 .website__logo--img{
@@ -23,7 +37,7 @@ li {
 }
 
 .nav__container{
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,6 +61,7 @@ li {
 
 .header__wrapper{
     background-color: #e9e8e8;
+    height: calc(100vh - 70px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,4 +101,60 @@ li {
     border-radius: 10px;
     font-size: 18px;
     cursor: pointer;
+}
+
+/* ABOUT */
+
+#about{
+    background-color: #faf4d2;
+}
+
+.about__wrapper--row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about__para{
+    margin:0 16px 16px 0;
+    padding: 8px;
+}
+
+.about__img--wrapper{
+    width: 80%;
+}
+
+.about__img {
+    width: 100%;
+}
+
+/*Discord */
+
+#discord{
+    background-color: #98f5f5;
+}
+
+.discord__wrapper--row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.discord__img--wrapper{
+    width: 130%;
+}
+
+.discord__img{
+   width: 100%;
+}
+
+.discord__wrapper--para{
+    padding: 8px;
+    margin-left: 24px;
 }
