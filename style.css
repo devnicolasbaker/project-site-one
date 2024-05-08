@@ -94,13 +94,14 @@ p {
 
 }
 
-.header_bottom{
+.header_button{
     background-color: #05c7cf;
     padding: 8px 16px;
     color: #ffffff;
     border-radius: 10px;
     font-size: 18px;
     cursor: pointer;
+    border: none;
 }
 
 /* ABOUT */
@@ -134,7 +135,7 @@ p {
 /*Discord */
 
 #discord{
-    background-color: #98f5f5;
+    background-color: #cefeff;
 }
 
 .discord__wrapper--row{
@@ -158,3 +159,48 @@ p {
     padding: 8px;
     margin-left: 24px;
 }
+
+/* Contact */
+
+#contact{
+    background-color: #dce9ff;
+    
+}
+
+.form__wrapper--row{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 8px 0;
+    
+}
+
+.contact__form--email,
+.contact__form--message {
+    width: 100%;
+    margin: 8px 0 16px 0;
+}
+
+.contact__form--button{
+    width: 100%;
+    background-color: #05c7cf;
+    padding: 8px 16px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+
